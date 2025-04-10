@@ -9,6 +9,7 @@ import { PetProfileComponent } from "./pet-profile/pet-profile.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
+
 export class AppComponent {
   title = 'pet';
 }

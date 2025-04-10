@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.details{
+    align-items: flex-end;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+ul{
+    color: skyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+p{
+    font-family: monospace;
+    color: red;
+}
+
+img{
+    height: 100px;
+}

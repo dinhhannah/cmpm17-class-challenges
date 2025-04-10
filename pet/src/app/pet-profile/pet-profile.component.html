@@ -1,14 +1,25 @@
-<p>pet-profile works!</p>
 <body>
-  <h1>Meet My Pet!</h1>
+    <div class="content">
+        <div class = "title">
+            <h1>WANTED: {{ name() }}</h1>
+            <h2>${{ bounty() }} Bounty</h2>
+        </div>
+        
+        <div class="info">
+            <div class = "details">
+                <ol>bites your ankles</ol>
+                <ol>commits crimes</ol>
+                <ol>will eat your food</ol>
+            </div>
+        </div>
 
-  <h2>Name: Mochi</h2>
+        <img src = "pigeon.jpeg">
 
-  <h3>Hobbies:</h3>
-  <ul>
-    <li>Chasing butterflies</li>
-    <li>Napping in the sun</li>
-    <li>Playing fetch</li>
-    <li>Chewing toys</li>
-  </ul>
+        <div class = "bio">
+            <p>Pidgey is rapidly approaching your location</p>
+        </div>
+
+        <button (click) = "getRandomMood()">Get Mood</button>
+        <h3>He is feeling {{currentMood()}}</h3>
+      </div>
 </body>
